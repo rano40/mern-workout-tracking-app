@@ -6,7 +6,7 @@ A workout tracking app that allows users to log their exercises and track their 
 
 # Installation
 
-1. Clone the repository: git clone https://github.com/rano40/workout-tracking-app.git
+1. Clone the repository: git clone https://github.com/rano40/mern-workout-tracking-app.git
 
 2. Install dependencies: `npm install`
 3. Set up environment variables:
