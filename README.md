@@ -1,4 +1,3 @@
-
 # Workout Tracker
 
 A workout tracking app that allows users to log their exercises and track their progress.
