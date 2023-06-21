@@ -145,3 +145,55 @@ form.login {
   background: #fff;
   border-radius: 4px;
 }
+
+/* Default styles */
+
+/* ...existing CSS code... */
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for small screens */
+  
+  header .container {
+    flex-direction: column;
+    padding: 10px 20px;
+    align-items: flex-start;
+  }
+  
+  .pages {
+    padding: 0 20px;
+  }
+  
+  .home {
+    grid-template-columns: 1fr;
+  }
+  
+  .workout-details {
+    margin: 10px auto;
+    padding: 10px;
+  }
+  
+  form.signup,
+  form.login {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Adjustments for even smaller screens */
+  
+  .pages {
+    padding: 0 10px;
+  }
+  
+  .workout-details {
+    padding: 10px;
+  }
+  
+  form.signup,
+  form.login {
+    padding: 10px;
+  }
+}
