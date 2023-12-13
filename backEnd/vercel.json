@@ -3,7 +3,6 @@
     "name": "mern-workout-tracking-app",
     "functions": {
       "api": {
-        "src": "./server.js",
         "runtime": "@vercel/node"
       }
     },
