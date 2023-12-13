@@ -3,7 +3,7 @@
     "name": "mern-workout-tracking-app",
     "build": [
         {
-            "src": "server.js",
+            "src": "./server.js",
             "use": "@vercel/node"
         }
     ], 
