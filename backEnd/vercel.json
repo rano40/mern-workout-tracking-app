@@ -1,16 +1,17 @@
 {
     "version": 2,
     "name": "mern-workout-tracking-app",
-    "build": [
-        {
-            "src": "./server.js",
-            "use": "@vercel/node"
-        }
-    ], 
-    "routes" : [
-        {
-            "src": "/(.*)",
-            "dest": "/server.js"
-        }
+    "functions": {
+      "api": {
+        "src": "./server.js",
+        "runtime": "@vercel/node"
+      }
+    },
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/server.js"
+      }
     ]
-}
+  }
+  
